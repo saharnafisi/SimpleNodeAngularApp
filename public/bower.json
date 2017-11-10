@@ -1,12 +1,12 @@
 {
   "name": "public",
+  "homepage": "https://github.com/saharnafisi/SimpleNodeAngularApp",
   "authors": [
     "Sahar Nafisi <sahar.nafisi95@gmail.com>"
   ],
   "description": "",
   "main": "",
   "license": "MIT",
-  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
