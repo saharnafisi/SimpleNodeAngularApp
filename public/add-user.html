@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./bower_components/bootstrap-rtl/dist/css/bootstrap-rtl.min.css">
+    <script src="./bower_components/angular/angular.js"></script>
+    <script src="./app/main.js"></script>
+    <script src="./app/controllers/addUserController.js"></script>
     <title>Document</title>
 </head>
-<body>
-        <div class="container">
+<body ng-app="app">
+        <div class="container" ng-controller="addUserCTRL">
+            <p>{{ name }}</p>
                 <div class="row centered-form">
                 <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
                     <div class="panel panel-default">
